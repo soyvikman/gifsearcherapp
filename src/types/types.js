@@ -1,0 +1,3 @@
+export default {
+  BUSQUEDA_GENERADA: "BUSQUEDA_GENERADA"
+};

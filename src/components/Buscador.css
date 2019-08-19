@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.central-busqueda {
+  margin: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: green;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.central-busqueda input {
+  width: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.flexboxing-results {
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+}
